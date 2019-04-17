@@ -1,14 +1,15 @@
 {
-  "name": "webCompetition-2019",
+  "name": "dynamicWeb_test",
   "version": "1.0.0",
-  "description": "webCompetition-2019",
+  "description": "dynamicWeb_test",
   "main": "index.js",
   "scripts": {
     "json": "json-server -w -p 4000 db.json",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run clean && webpack --mode development",
-    "server": "webpack-dev-server"
+    "start_p": "npm run clean && webpack --mode development",
+    "server": "webpack-dev-server",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
