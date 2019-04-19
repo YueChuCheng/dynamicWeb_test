@@ -1,3 +1,4 @@
+import "normalize.css";
 import "babel-polyfill";
 import $ from "jquery";
 import '../css/style.css';
