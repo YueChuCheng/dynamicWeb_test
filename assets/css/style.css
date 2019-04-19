@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 .container{
+   
     background-color: gray;
     width:auto;
     
@@ -14,9 +15,10 @@ body{
     grid-gap: 20px;
 }
 .item{
-    
+    overflow: hidden;
 }
 .item--1{
+   
     background-color: orange;
     
 }
@@ -42,8 +44,20 @@ body{
    
 }
 
-.item--6{
+.item--0{
+   
     background-color: brown;
    
     grid-column: span 2;
+}
+.news_img{
+   
+  
+   position: relative;
+   height: 150%;
+   
+   right:200px;
+
+  
+   
 }
