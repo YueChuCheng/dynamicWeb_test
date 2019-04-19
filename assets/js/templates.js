@@ -4,8 +4,8 @@ export const newsTemplate = news =>
 
 `
 
-      <div class=" item item--${x++,x%6} background="">
-      <img  class="news_img"src="${news.urlToImage}" alt="newsImage">
+      <div class=" item item--${x++,x%6}"  style="background-image:url(${news.urlToImage});" >
+      
       </div>
   
 `;
