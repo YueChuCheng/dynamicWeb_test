@@ -5,7 +5,7 @@ export default axios.create({
   method: "get",
   baseURL: "https://newsapi.org/v2",
   params: {
-    pageSize: 4
+    pageSize: 6
   },
   headers: {
     Authorization: apiKey
